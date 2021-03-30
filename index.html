@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="hu">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="stilusok.css">
+</head>
+
+<body>
+    <h3>Alapadatok</h3>
+    <div>
+        <form>
+            <span class="nev1">Teljes neved</span><label class="felso"><input type="text"></label><br>
+
+            <span class="nem">Nemed</span> <input type="radio" id="ferfi" value="ferfi">
+            <label for="ferfi">Férfi</label>
+            <input type="radio" id="no" value="no">
+            <label for="no">Nő</label><br>
+
+            <span class="email">Email<span class="csillag">*</span></span><label><input type="email" required></label>
+            <br>
+            <span class="teli">Telefonszám</span><span class="csillag">*</span>
+            <select name="tel">
+                <option value="36">36</option>
+                <option value="93">93</option>
+                <option value="61">61</option>
+            </select>
+            <label class="telike"><input type="text"></label>
+            <br>
+            <span>Levelezés<br>alapértelmezett nyelve<span class="csillag">*</span></span>
+            <select class="select3">
+                <option value="Magyar">Magyar</option>
+                <option value="Angol">Angol</option>
+                <option value="Kínai">Kínai</option>
+            </select>
+            <br>
+            <span class="ido">Születési idő</span>
+            <select class="Ev">
+                <option value="Ev">Év</option>
+                <option value="2000">2000</option>
+                <option value="2001">2001</option>
+                <option value="2002">2002</option>
+                <option value="2003">2003</option>
+            </select>
+            <select class="Honap">
+                <option value="ho">Hó</option>
+                <option value="januar">Január</option>
+                <option value="februar">Február</option>
+                <option value="marcius">Március</option>
+                <option value="aprilis">Április</option>
+            </select>
+            <select class="Nap">
+                <option value="Nap">Nap</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+            </select>
+            <label><input type="submit" value="Mentés"></label>
+
+        </form>
+
+        <p id="szulinap">
+            Add meg a születésnapodat és várd a<br> meglepetést!
+        </p>
+
+    </div>
+</body>
+
+</html>

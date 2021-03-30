@@ -1,0 +1,56 @@
+    div {
+        background-color: rgb(230, 228, 228);
+        width: 20%;
+        height: 18rem;
+        color: gray;
+    }
+    
+    .csillag {
+        color: purple;
+    }
+    
+    .nev1 {
+        margin-right: 5rem;
+    }
+    
+    .nem {
+        margin-right: 6.5rem;
+    }
+    
+    .email {
+        margin-right: 7rem;
+    }
+    
+    input[type=email]:required {
+        display: inline-block;
+        border: 2px solid darkred;
+        box-sizing: border-box;
+    }
+    
+    input[type=text] {
+        width: 150px;
+        height: 16px;
+    }
+    
+    .teli {
+        margin-right: 4rem;
+    }
+    
+    .ido {
+        margin-right: 4.5rem;
+    }
+    
+    input[type=submit] {
+        background-color: orangered;
+        color: White;
+        font-family: Arial, Helvetica, sans-serif;
+        margin-top: 100px;
+        width: 70px;
+        height: 30px;
+        margin-left: 20px;
+    }
+    
+    #szulinap {
+        margin-top: -100px;
+        margin-left: 140px;
+    }
